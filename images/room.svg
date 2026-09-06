@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24211e"/><stop offset="0.5" stop-color="#756247"/><stop offset="1" stop-color="#171513"/>
+    </linearGradient><radialGradient id="vg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient><pattern id="p" width="130" height="130" patternUnits="userSpaceOnUse">
+      <circle cx="65" cy="65" r="46" fill="none" stroke="#d6bb88" stroke-opacity=".10"/>
+      <circle cx="65" cy="65" r="7" fill="#d6bb88" fill-opacity=".08"/>
+    </pattern></defs>
+<rect width="1600" height="1000" fill="url(#g)"/>
+<rect width="1600" height="1000" fill="url(#p)"/>
+<g><line x1="266.6666666666667" y1="0" x2="266.6666666666667" y2="620.0" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="533.3333333333334" y1="0" x2="533.3333333333334" y2="620.0" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="800.0" y1="0" x2="800.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="1066.6666666666667" y1="0" x2="1066.6666666666667" y2="620.0" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="1333.3333333333335" y1="0" x2="1333.3333333333335" y2="620.0" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="0" y1="206.66666666666666" x2="1600" y2="206.66666666666666" stroke="#d6bb88" stroke-opacity="0.28"/><line x1="0" y1="413.3333333333333" x2="1600" y2="413.3333333333333" stroke="#d6bb88" stroke-opacity="0.28"/></g><rect x="306.0" y="180.0" width="28" height="700.0" fill="#24211e" opacity="0.2"/><rect x="300.0" y="160.0" width="40" height="14" fill="#d6bb88" opacity="0.30000000000000004"/><rect x="626.0" y="180.0" width="28" height="700.0" fill="#24211e" opacity="0.2"/><rect x="620.0" y="160.0" width="40" height="14" fill="#d6bb88" opacity="0.30000000000000004"/><rect x="946.0" y="180.0" width="28" height="700.0" fill="#24211e" opacity="0.2"/><rect x="940.0" y="160.0" width="40" height="14" fill="#d6bb88" opacity="0.30000000000000004"/><rect x="1266.0" y="180.0" width="28" height="700.0" fill="#24211e" opacity="0.2"/><rect x="1260.0" y="160.0" width="40" height="14" fill="#d6bb88" opacity="0.30000000000000004"/>
+<rect width="1600" height="1000" fill="url(#vg)"/>
+</svg>

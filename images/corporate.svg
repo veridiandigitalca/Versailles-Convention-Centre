@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#201d1c"/><stop offset="0.5" stop-color="#5c574a"/><stop offset="1" stop-color="#121110"/>
+    </linearGradient><radialGradient id="vg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient><pattern id="p" width="130" height="130" patternUnits="userSpaceOnUse">
+      <circle cx="65" cy="65" r="46" fill="none" stroke="#d6bb88" stroke-opacity=".10"/>
+      <circle cx="65" cy="65" r="7" fill="#d6bb88" fill-opacity=".08"/>
+    </pattern></defs>
+<rect width="1600" height="1000" fill="url(#g)"/>
+<rect width="1600" height="1000" fill="url(#p)"/>
+<polygon points="800.0,120.0 540.0,700.0 620.0,700.0" fill="#d6bb88" opacity="0.1"/><polygon points="800.0,120.0 670.0,700.0 750.0,700.0" fill="#d6bb88" opacity="0.1"/><polygon points="800.0,120.0 800.0,700.0 880.0,700.0" fill="#d6bb88" opacity="0.1"/><polygon points="800.0,120.0 930.0,700.0 1010.0,700.0" fill="#d6bb88" opacity="0.1"/><polygon points="800.0,120.0 1060.0,700.0 1140.0,700.0" fill="#d6bb88" opacity="0.1"/><rect x="448.00000000000006" y="160.0" width="704.0" height="320.0" fill="none" stroke="#d6bb88" stroke-opacity="0.3" stroke-width="2"/><g><line x1="200.0" y1="0" x2="200.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="400.0" y1="0" x2="400.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="600.0" y1="0" x2="600.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="800.0" y1="0" x2="800.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="1000.0" y1="0" x2="1000.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="1200.0" y1="0" x2="1200.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="1400.0" y1="0" x2="1400.0" y2="620.0" stroke="#d6bb88" stroke-opacity="0.18"/><line x1="0" y1="310.0" x2="1600" y2="310.0" stroke="#d6bb88" stroke-opacity="0.18"/></g>
+<rect width="1600" height="1000" fill="url(#vg)"/>
+</svg>
