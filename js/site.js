@@ -136,12 +136,7 @@
       });
     });
 
-    document.querySelectorAll(".footer-grid, .footer-bottom").forEach(function (el) {
-      if (!el.hasAttribute("data-reveal-group")) {
-        el.setAttribute("data-reveal-group", "");
-        targets.push(el);
-      }
-    });
+
 
     if (reduceMotion || !("IntersectionObserver" in window)) {
       targets.forEach(function (el) { el.classList.add("is-visible"); });
