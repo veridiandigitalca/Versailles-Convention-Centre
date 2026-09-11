@@ -1091,3 +1091,284 @@ input,textarea,select,button {  max-width: 100%;}
     transition: none !important;
   }
 }
+
+
+.view-menu {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #8b6f47;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.card:hover .view-menu {
+    color: #5f482c;
+    transform: translateX(4px);
+}
+
+
+
+/* =========================================================
+   FAQ V2 — VERSAILLES OFFICE HOURS
+   ========================================================= */
+
+.faq-v2 {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.faq-v2-item {
+  border-bottom: 1px solid var(--line);
+}
+
+
+/* ---------- Question ---------- */
+
+.faq-v2-question {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  padding: 1.35rem 0;
+
+  border: 0;
+  background: transparent;
+
+  color: var(--ink);
+
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.25;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    color var(--t-fast) var(--ease),
+    padding var(--t-fast) var(--ease);
+}
+
+
+/* Hover */
+
+.faq-v2-question:hover {
+  color: var(--gold);
+}
+
+
+/* Focus */
+
+.faq-v2-question:focus-visible {
+  outline: 2px solid var(--gold2);
+  outline-offset: 5px;
+}
+
+
+/* ---------- Plus Icon ---------- */
+
+.faq-v2-icon {
+  flex: 0 0 auto;
+
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--gold);
+
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+
+  transition:
+    transform var(--t-fast) var(--ease),
+    color var(--t-fast) var(--ease);
+}
+
+
+/* ---------- Answer ---------- */
+
+.faq-v2-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+
+  transition:
+    grid-template-rows var(--t-standard) var(--ease);
+}
+
+.faq-v2-answer p {
+  overflow: hidden;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: var(--muted);
+
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.7;
+
+  opacity: 0;
+
+  transform: translateY(-8px);
+
+  transition:
+    opacity var(--t-fast) var(--ease-soft),
+    transform var(--t-standard) var(--ease-soft),
+    padding var(--t-standard) var(--ease);
+}
+
+
+/* ---------- Open State ---------- */
+
+.faq-v2-item.active .faq-v2-answer {
+  grid-template-rows: 1fr;
+}
+
+.faq-v2-item.active .faq-v2-answer p {
+  padding: 0 3.5rem 1.35rem 0;
+
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+/* ---------- Open Question ---------- */
+
+.faq-v2-item.active .faq-v2-question {
+  color: var(--ink);
+}
+
+.faq-v2-item.active .faq-v2-icon {
+  transform: rotate(45deg);
+  color: var(--gold);
+}
+
+
+/* =========================================================
+   FAQ V2 — TABLET / MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .faq-v2 {
+    max-width: none;
+    margin-top: 1.5rem;
+  }
+
+  .faq-v2-question {
+    padding: 1.25rem 0;
+
+    font-size: 1.25rem;
+  }
+
+  .faq-v2-answer p {
+    font-size: 1rem;
+  }
+
+  .faq-v2-item.active .faq-v2-answer p {
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+
+/* =========================================================
+   FAQ V2 — SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 560px) {
+
+  .faq-v2 {
+    margin-top: 1.25rem;
+  }
+
+  .faq-v2-question {
+    gap: 1rem;
+
+    padding: 1.15rem 0;
+
+    font-size: 1.15rem;
+    line-height: 1.3;
+  }
+
+  .faq-v2-icon {
+    width: 26px;
+    height: 26px;
+
+    font-size: 1.35rem;
+  }
+
+  .faq-v2-answer p {
+    font-size: .96rem;
+    line-height: 1.7;
+  }
+
+  .faq-v2-item.active .faq-v2-answer p {
+    padding-right: 1rem;
+    padding-bottom: 1.15rem;
+  }
+}
+
+
+/* =========================================================
+   FAQ V2 — VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+  .faq-v2-question {
+    font-size: 1.08rem;
+    padding: 1rem 0;
+  }
+
+  .faq-v2-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 1.25rem;
+  }
+
+  .faq-v2-answer p {
+    font-size: .94rem;
+  }
+
+  .faq-v2-item.active .faq-v2-answer p {
+    padding-bottom: 1rem;
+  }
+}
+
+
+/* =========================================================
+   FAQ V2 — REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .faq-v2-question,
+  .faq-v2-icon,
+  .faq-v2-answer,
+  .faq-v2-answer p {
+    transition: none !important;
+  }
+}
+
+
+/* Keep footer email on one line */
+.footer a[href^="mailto:"] {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
+}
