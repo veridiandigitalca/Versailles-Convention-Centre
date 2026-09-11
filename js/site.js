@@ -118,11 +118,14 @@
 
       // Photography gets a gentle scale-settle as it reveals.
       section.querySelectorAll(".media, .tile").forEach(function (media) {
-        if (!media.hasAttribute("data-reveal") && !media.closest("[data-reveal-group]")) {
-          media.setAttribute("data-reveal", "image");
-          targets.push(media);
-        }
+          if (media.hasAttribute("data-no-reveal")) return;
+
+          if (!media.hasAttribute("data-reveal") && !media.closest("[data-reveal-group]")) {
+              media.setAttribute("data-reveal", "image");
+              targets.push(media);
+          }
       });
+
 
       // Everything else at the top level of a section's content column(s).
       var textHolders = section.querySelectorAll(
