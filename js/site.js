@@ -104,6 +104,8 @@
     var targets = [];
 
     document.querySelectorAll("main > section").forEach(function (section) {
+      if (section.hasAttribute("data-no-reveal")) return;
+
       if (section.classList.contains("hero") || section.classList.contains("page-hero")) return;
 
       // Grouped, staggered content: card grids, stat rows, the gallery grid.
