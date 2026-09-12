@@ -1403,3 +1403,25 @@ input,textarea,select,button {  max-width: 100%;}
     transform: none !important;
 }
 
+/* =========================================================
+   OFFICE HOURS — MOBILE LEFT ALIGNMENT
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .split > div:last-child {
+    width: 100%;
+    text-align: left;
+  }
+
+  .faq-v2 {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .faq-v2-question {
+    text-align: left;
+    justify-content: space-between;
+  }
+}
